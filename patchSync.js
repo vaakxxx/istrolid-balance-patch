@@ -1,6 +1,4 @@
 (function() {
-  if (typeof parts === 'undefined') return;
-  
   const cache = {}, orig = {}, origMethods = {}, saved = new Set(), applied = new Set();
   const PATCHED = ['Devylocal (vaakx)', 'Quasar (vaakx)'];
   let pending;
